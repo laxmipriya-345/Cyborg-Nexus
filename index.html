@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyborg Nexus - Future of Humanity</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <div class="loader-text">INITIALIZING CYBORG SYSTEM...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <div class="logo-text">CYBORG<span>NEXUS</span></div>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#showcase" class="nav-link">Showcase</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-btn" id="upgradeBtn">JOIN THE UPGRADE</button>
+            <div class="menu-btn" id="menuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+            <div class="glow-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">✦ WELCOME TO THE FUTURE ✦</div>
+            <h1 class="hero-title">BEYOND <span class="gradient-text">HUMAN</span></h1>
+            <p class="hero-subtitle">Experience the next evolution of humanity. Merge with advanced technology and unlock your true potential.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" id="initiateBtn">
+                    <span class="btn-text">INITIATE UPGRADE</span>
+                    <span class="btn-glow"></span>
+                </button>
+                <button class="btn-secondary" id="exploreBtn">
+                    <span class="btn-text">EXPLORE TECHNOLOGY</span>
+                </button>
+            </div>
+            <div class="stats">
+                <div class="stat-item" data-count="10000">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">CYBORGS</div>
+                </div>
+                <div class="stat-item" data-count="999">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">EFFICIENCY %</div>
+                </div>
+                <div class="stat-item" data-count="247">
+                    <div class="stat-value">0</div>
+                    <div class="stat-label">NEURAL LINK</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">✦ CYBERNETIC ENHANCEMENTS ✦</div>
+                <h2 class="section-title">AUGMENT YOUR <span class="gradient-text">REALITY</span></h2>
+                <p class="section-subtitle">Discover our cutting-edge cybernetic implants designed to push the boundaries of human capability.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="feature-title">NEURAL INTERFACE</h3>
+                    <p class="feature-desc">Direct brain-computer connection with 10ms latency and 99.9% accuracy.</p>
+                    <div class="feature-hover"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">ENHANCED STRENGTH</h3>
+                    <p class="feature-desc">Cyber-enhanced limbs providing 500% increased strength and endurance.</p>
+                    <div class="feature-hover"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔮</div>
+                    <h3 class="feature-title">AI INTEGRATION</h3>
+                    <p class="feature-desc">Built-in AI assistant for real-time data processing and decision making.</p>
+                    <div class="feature-hover"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">NANO SHIELD</h3>
+                    <p class="feature-desc">Self-repairing nano-tech armor with adaptive camouflage system.</p>
+                    <div class="feature-hover"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💫</div>
+                    <h3 class="feature-title">HOLO DISPLAY</h3>
+                    <p class="feature-desc">Retinal projection display with AR overlay and neural control.</p>
+                    <div class="feature-hover"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌌</div>
+                    <h3 class="feature-title">QUANTUM LINK</h3>
+                    <p class="feature-desc">Quantum encrypted communication for secure data transfer.</p>
+                    <div class="feature-hover"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <div class="showcase-container">
+                <div class="showcase-image">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=600" alt="Cyborg Technology" class="showcase-img" id="showcaseImg">
+                        <div class="image-glow"></div>
+                    </div>
+                    <div class="thumbnail-container">
+                        <div class="thumbnail active" data-img="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=600">
+                            <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=200" alt="Thumb 1">
+                        </div>
+                        <div class="thumbnail" data-img="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=200" alt="Thumb 2">
+                        </div>
+                        <div class="thumbnail" data-img="https://images.unsplash.com/photo-1581092335871-4c5c0e7ecb8e?w=600">
+                            <img src="https://images.unsplash.com/photo-1581092335871-4c5c0e7ecb8e?w=200" alt="Thumb 3">
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase-content">
+                    <div class="showcase-badge">✦ LATEST INNOVATION ✦</div>
+                    <h2 class="showcase-title">MK-V <span class="gradient-text">CYBORG</span></h2>
+                    <p class="showcase-desc" id="showcaseDesc">Latest generation combat cyborg with enhanced neural pathways and quantum processing capabilities.</p>
+                    <div class="tech-specs">
+                        <div class="spec">
+                            <div class="spec-icon">⚡</div>
+                            <div>
+                                <div class="spec-label">POWER OUTPUT</div>
+                                <div class="spec-value">1.21 GW</div>
+                            </div>
+                        </div>
+                        <div class="spec">
+                            <div class="spec-icon">🧠</div>
+                            <div>
+                                <div class="spec-label">NEURAL SPEED</div>
+                                <div class="spec-value">10 Peta/s</div>
+                            </div>
+                        </div>
+                        <div class="spec">
+                            <div class="spec-icon">🔋</div>
+                            <div>
+                                <div class="spec-label">BATTERY LIFE</div>
+                                <div class="spec-value">72 Hours</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn-primary" id="specsBtn">
+                        <span class="btn-text">VIEW SPECIFICATIONS →</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="contact" class="newsletter">
+        <div class="container">
+            <div class="newsletter-container">
+                <div class="section-badge">✦ LIMITED OFFER ✦</div>
+                <h2 class="newsletter-title">JOIN THE <span class="gradient-text">CYBORG REVOLUTION</span></h2>
+                <p class="newsletter-desc">Subscribe to receive exclusive updates about our latest cybernetic technologies and early access opportunities.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="input-group">
+                        <input type="email" id="emailInput" placeholder="Enter your neural email" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    <button type="submit" class="btn-primary">
+                        <span class="btn-text">SUBSCRIBE</span>
+                    </button>
+                </form>
+                <div id="notification" class="notification"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon"></div>
+                        <div class="logo-text">CYBORG<span>NEXUS</span></div>
+                    </div>
+                    <p class="footer-desc">Pioneering the future of human-technology integration since 2024.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">🔗</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">📷</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>PRODUCT</h4>
+                        <a href="#">Cyborg Models</a>
+                        <a href="#">Neural Implants</a>
+                        <a href="#">Nano Tech</a>
+                        <a href="#">AI Systems</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>COMPANY</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Research</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>RESOURCES</h4>
+                        <a href="#">Documentation</a>
+                        <a href="#">API Reference</a>
+                        <a href="#">Community</a>
+                        <a href="#">Support</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cyborg Nexus. All rights reserved. | Neural Interface v2.0</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
