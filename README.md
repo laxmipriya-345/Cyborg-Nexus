@@ -203,15 +203,13 @@ Copyright (c) 2024 Cyborg Nexus
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files...
 📞 Contact
-Project Maintainer: Your Name
+Project Maintainer: Laxmipriya Rout
 
-📧 Email: your.email@example.com
+📧 Email: routlaxmipriya534@gmail.com
 
-🐦 Twitter: @yourhandle
+💼 LinkedIn: https://www.linkedin.com/in/laxmipriya-rout-6b9b6a292/
 
-💼 LinkedIn: Your Name
-
-🐙 GitHub: @yourusername
+🐙 GitHub:(https://github.com/laxmipriya-345/Cyborg-Nexus)
 
 Project Link: https://github.com/yourusername/cyborg-landing-page
 
@@ -256,8 +254,7 @@ v2.0.0 - Complete rewrite with React
 Give a ⭐️ if this project helped you!
 
 📸 Screenshots
-Desktop View
-https://via.placeholder.com/1200x600?text=Desktop+Screenshot
+
 Home Page 
 ![home](home.png)
 Feature 
@@ -268,12 +265,6 @@ Contact
 ![contact](contact.png)
 
 
-
-Mobile View
-https://via.placeholder.com/400x800?text=Mobile+Screenshot
-
-Features Section
-https://via.placeholder.com/1200x400?text=Features+Section
 
 CONTRIBUTING.md
 markdown
@@ -299,4 +290,4 @@ We love your input! We want to make contributing to this project as easy and tra
 When you submit code changes, your submissions are understood to be under the same [MIT License](LICENSE) that covers the project.
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/cyborg-landing-page.git
+   git clone https://github.com/laxmipriya-345/Cyborg-Nexus
