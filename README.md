@@ -258,10 +258,16 @@ Give a ⭐️ if this project helped you!
 📸 Screenshots
 Desktop View
 https://via.placeholder.com/1200x600?text=Desktop+Screenshot
+Home Page 
 ![home](home.png)
-![contact](contact.png)
+Feature 
 ![feature](feature.png)
+Showcase
 ![showcase](showcase.png)
+Contact
+![contact](contact.png)
+
+
 
 Mobile View
 https://via.placeholder.com/400x800?text=Mobile+Screenshot
