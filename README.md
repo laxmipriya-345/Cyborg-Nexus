@@ -202,16 +202,6 @@ Copyright (c) 2024 Cyborg Nexus
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files...
-📞 Contact
-Project Maintainer: Laxmipriya Rout
-
-📧 Email: routlaxmipriya534@gmail.com
-
-💼 LinkedIn: https://www.linkedin.com/in/laxmipriya-rout-6b9b6a292/
-
-🐙 GitHub:(https://github.com/laxmipriya-345/Cyborg-Nexus)
-
-Project Link: https://github.com/yourusername/cyborg-landing-page
 
 🙏 Acknowledgements
 This project was inspired by and uses resources from:
@@ -291,3 +281,18 @@ When you submit code changes, your submissions are understood to be under the sa
 1. **Clone the repository**
    ```bash
    git clone https://github.com/laxmipriya-345/Cyborg-Nexus
+
+
+
+
+
+📞 Contact
+Project Maintainer: Laxmipriya Rout
+
+📧 Email: routlaxmipriya534@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/laxmipriya-rout-6b9b6a292/
+
+🐙 GitHub:(https://github.com/laxmipriya-345/Cyborg-Nexus)
+
+Project Link:(https://github.com/laxmipriya-345/Cyborg-Nexus)
